@@ -1,0 +1,7 @@
+Setup Ambiente
+-Stanza di 4x5 metri, al cui interno sono presenti mobili ed elettrodomestici.
+-Griglia di dimensioni 2,8 metri x 1,9 metri.
+-La griglia è stata accuratamente suddivisa in 580 punti distanti tra loro di 10 cm.
+
+Beacon Utilizzati
+-Beacon iTag, con dimensioni di 30 x 10 x 50 mm e alimentati da una batteria CR2032 da 3V.

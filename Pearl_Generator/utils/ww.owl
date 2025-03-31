@@ -1,0 +1,161 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/brndra94b21b715d/ontologies/2024/2/untitled-ontology-4/"
+     xml:base="http://www.semanticweb.org/brndra94b21b715d/ontologies/2024/2/untitled-ontology-4/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/brndra94b21b715d/ontologies/2024/2/untitled-ontology-4"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/brndra94b21b715d/ontologies/2024/2/untitled-ontology-4#Art -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/brndra94b21b715d/ontologies/2024/2/untitled-ontology-4#Art"/>
+    
+
+
+    <!-- http://www.semanticweb.org/brndra94b21b715d/ontologies/2024/2/untitled-ontology-4#Book -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/brndra94b21b715d/ontologies/2024/2/untitled-ontology-4#Book">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/brndra94b21b715d/ontologies/2024/2/untitled-ontology-4#Documents"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/brndra94b21b715d/ontologies/2024/2/untitled-ontology-4#Documents -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/brndra94b21b715d/ontologies/2024/2/untitled-ontology-4#Documents"/>
+    
+
+
+    <!-- http://www.semanticweb.org/brndra94b21b715d/ontologies/2024/2/untitled-ontology-4#Event -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/brndra94b21b715d/ontologies/2024/2/untitled-ontology-4#Event"/>
+    
+
+
+    <!-- http://www.semanticweb.org/brndra94b21b715d/ontologies/2024/2/untitled-ontology-4#Material -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/brndra94b21b715d/ontologies/2024/2/untitled-ontology-4#Material"/>
+    
+
+
+    <!-- http://www.semanticweb.org/brndra94b21b715d/ontologies/2024/2/untitled-ontology-4#Metal -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/brndra94b21b715d/ontologies/2024/2/untitled-ontology-4#Metal">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/brndra94b21b715d/ontologies/2024/2/untitled-ontology-4#Material"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/brndra94b21b715d/ontologies/2024/2/untitled-ontology-4#Movie -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/brndra94b21b715d/ontologies/2024/2/untitled-ontology-4#Movie">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/brndra94b21b715d/ontologies/2024/2/untitled-ontology-4#Art"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/brndra94b21b715d/ontologies/2024/2/untitled-ontology-4#Multimedia_Content -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/brndra94b21b715d/ontologies/2024/2/untitled-ontology-4#Multimedia_Content"/>
+    
+
+
+    <!-- http://www.semanticweb.org/brndra94b21b715d/ontologies/2024/2/untitled-ontology-4#People -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/brndra94b21b715d/ontologies/2024/2/untitled-ontology-4#People"/>
+    
+
+
+    <!-- http://www.semanticweb.org/brndra94b21b715d/ontologies/2024/2/untitled-ontology-4#Place -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/brndra94b21b715d/ontologies/2024/2/untitled-ontology-4#Place"/>
+    
+
+
+    <!-- http://www.semanticweb.org/brndra94b21b715d/ontologies/2024/2/untitled-ontology-4#Topic -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/brndra94b21b715d/ontologies/2024/2/untitled-ontology-4#Topic"/>
+    
+
+
+    <!-- http://www.semanticweb.org/brndra94b21b715d/ontologies/2024/2/untitled-ontology-4#War -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/brndra94b21b715d/ontologies/2024/2/untitled-ontology-4#War">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/brndra94b21b715d/ontologies/2024/2/untitled-ontology-4#Event"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/brndra94b21b715d/ontologies/2024/2/untitled-ontology-4#Wearable -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/brndra94b21b715d/ontologies/2024/2/untitled-ontology-4#Wearable"/>
+    
+
+
+    <!-- http://www.semanticweb.org/brndra94b21b715d/ontologies/2024/2/untitled-ontology-4#painting_technique -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/brndra94b21b715d/ontologies/2024/2/untitled-ontology-4#painting_technique">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/brndra94b21b715d/ontologies/2024/2/untitled-ontology-4#Art"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/brndra94b21b715d/ontologies/2024/2/untitled-ontology-4#pearl -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/brndra94b21b715d/ontologies/2024/2/untitled-ontology-4#pearl"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/brndra94b21b715d/ontologies/2024/2/untitled-ontology-4#pearl1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/brndra94b21b715d/ontologies/2024/2/untitled-ontology-4#pearl1">
+        <rdf:type rdf:resource="http://www.semanticweb.org/brndra94b21b715d/ontologies/2024/2/untitled-ontology-4#pearl"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/brndra94b21b715d/ontologies/2024/2/untitled-ontology-4#pearl2 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/brndra94b21b715d/ontologies/2024/2/untitled-ontology-4#pearl2">
+        <rdf:type rdf:resource="http://www.semanticweb.org/brndra94b21b715d/ontologies/2024/2/untitled-ontology-4#pearl"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/brndra94b21b715d/ontologies/2024/2/untitled-ontology-4#pearl3 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/brndra94b21b715d/ontologies/2024/2/untitled-ontology-4#pearl3">
+        <rdf:type rdf:resource="http://www.semanticweb.org/brndra94b21b715d/ontologies/2024/2/untitled-ontology-4#pearl"/>
+    </owl:NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.26.2023-07-17T20:34:13Z) https://github.com/owlcs/owlapi -->
+

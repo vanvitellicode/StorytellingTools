@@ -1,0 +1,474 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:owl="http://www.w3.org/2002/07/owl#"
+         xml:base="http://www.semanticweb.org/brndra94b21b715d/ontologies/2024/2/untitled-ontology-4"
+         xmlns="http://www.semanticweb.org/brndra94b21b715d/ontologies/2024/2/untitled-ontology-4#">
+
+<owl:Ontology rdf:about="http://www.semanticweb.org/brndra94b21b715d/ontologies/2024/2/untitled-ontology-4"/>
+
+<owl:ObjectProperty rdf:about="#hasConcept">
+  <rdfs:domain rdf:resource="#QueryResult"/>
+</owl:ObjectProperty>
+
+<owl:Class rdf:about="#Art"/>
+
+<owl:Class rdf:about="#Book">
+  <rdfs:subClassOf rdf:resource="#Documents"/>
+</owl:Class>
+
+<owl:Class rdf:about="#Documents"/>
+
+<owl:Class rdf:about="#Event"/>
+
+<owl:Class rdf:about="#Material"/>
+
+<owl:Class rdf:about="#Metal">
+  <rdfs:subClassOf rdf:resource="#Material"/>
+</owl:Class>
+
+<owl:Class rdf:about="#Movie">
+  <rdfs:subClassOf rdf:resource="#Art"/>
+</owl:Class>
+
+<owl:Class rdf:about="#People"/>
+
+<owl:Class rdf:about="#Place"/>
+
+<owl:Class rdf:about="#QueryResult"/>
+
+<owl:Class rdf:about="#Topic"/>
+
+<owl:Class rdf:about="#War">
+  <rdfs:subClassOf rdf:resource="#Event"/>
+</owl:Class>
+
+<owl:Class rdf:about="#Wearable"/>
+
+<owl:Class rdf:about="#painting_technique">
+  <rdfs:subClassOf rdf:resource="#Art"/>
+</owl:Class>
+
+<owl:NamedIndividual rdf:about="#The_world_at_war">
+  <rdf:type rdf:resource="#QueryResult"/>
+  <hasConcept rdf:resource="#Print"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Print">
+  <rdf:type rdf:resource="#Art"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#The_worldat">
+  <rdf:type rdf:resource="#QueryResult"/>
+  <hasConcept rdf:resource="#Print"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Second_World_War">
+  <rdf:type rdf:resource="#QueryResult"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Second_Wrla">
+  <rdf:type rdf:resource="#QueryResult"/>
+  <hasConcept rdf:resource="#History"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#History">
+  <rdf:type rdf:resource="#Topic"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#World_War!Weltkrieg!">
+  <rdf:type rdf:resource="#QueryResult"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#World_a!etkig">
+  <rdf:type rdf:resource="#QueryResult"/>
+  <hasConcept rdf:resource="#Poem"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Poem">
+  <rdf:type rdf:resource="#Book"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Medal_commemorating_the_First_World_War">
+  <rdf:type rdf:resource="#QueryResult"/>
+  <hasConcept rdf:resource="#Iron"/>
+  <hasConcept rdf:resource="#Silver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Iron">
+  <rdf:type rdf:resource="#Metal"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Medal_comrtinghFsW">
+  <rdf:type rdf:resource="#QueryResult"/>
+  <hasConcept rdf:resource="#Iron"/>
+  <hasConcept rdf:resource="#Silver"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Silver">
+  <rdf:type rdf:resource="#Metal"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Walter_Easton_during_World_War_II">
+  <rdf:type rdf:resource="#QueryResult"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Walter_EsonduigI">
+  <rdf:type rdf:resource="#QueryResult"/>
+  <hasConcept rdf:resource="#Fine_art"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Fine_art">
+  <rdf:type rdf:resource="#Art"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Deserted_trench_during_World_War_I">
+  <rdf:type rdf:resource="#QueryResult"/>
+  <hasConcept rdf:resource="#Monograph"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Monograph">
+  <rdf:type rdf:resource="#Book"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Desrtd_nchuigWolaI">
+  <rdf:type rdf:resource="#QueryResult"/>
+  <hasConcept rdf:resource="#Photograph"/>
+  <hasConcept rdf:resource="#Monograph"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Photograph">
+  <rdf:type rdf:resource="#Art"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Bernat_Szanto_in_World_War_I">
+  <rdf:type rdf:resource="#QueryResult"/>
+  <hasConcept rdf:resource="#interviewees"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#interviewees">
+  <rdf:type rdf:resource="#Documents"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Bernat_SzoiWldI">
+  <rdf:type rdf:resource="#QueryResult"/>
+  <hasConcept rdf:resource="#interviewees"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#krig,_andra_världskrigetWar,_World_War_II">
+  <rdf:type rdf:resource="#QueryResult"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#krig,_andvälsetWoI">
+  <rdf:type rdf:resource="#QueryResult"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#War,_World_War_IIkrig,_andra_världskriget">
+  <rdf:type rdf:resource="#QueryResult"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#War,_oldIkignväset">
+  <rdf:type rdf:resource="#QueryResult"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Second_World_War,_Warandra_världskriget,_krig">
+  <rdf:type rdf:resource="#QueryResult"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Second_Wrla,väskigt">
+  <rdf:type rdf:resource="#QueryResult"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Stellungskrieg_im_WeltkriegWorld_War_position_war">
+  <rdf:type rdf:resource="#QueryResult"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Stelungskri_mWodapw">
+  <rdf:type rdf:resource="#QueryResult"/>
+  <hasConcept rdf:resource="#Documentary_film"/>
+  <hasConcept rdf:resource="#documentary_film"/>
+  <hasConcept rdf:resource="#Soldiers"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Documentary_film">
+  <rdf:type rdf:resource="#Movie"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#documentary_film">
+  <rdf:type rdf:resource="#Movie"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Soldiers">
+  <rdf:type rdf:resource="#People"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#WeltkriegsehrenmalWorld_War_II">
+  <rdf:type rdf:resource="#QueryResult"/>
+  <hasConcept rdf:resource="#war_memorials"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#war_memorials">
+  <rdf:type rdf:resource="#Place"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Weltkrigshnmaod_I">
+  <rdf:type rdf:resource="#QueryResult"/>
+  <hasConcept rdf:resource="#war_memorials"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#WeltkriegsmausoleumWorld_War_II">
+  <rdf:type rdf:resource="#QueryResult"/>
+  <hasConcept rdf:resource="#Mausoleum"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Mausoleum">
+  <rdf:type rdf:resource="#Place"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Weltkrigsmauod_I">
+  <rdf:type rdf:resource="#QueryResult"/>
+  <hasConcept rdf:resource="#war_memorials"/>
+  <hasConcept rdf:resource="#Mausoleum"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Weltkrieg.World_War.">
+  <rdf:type rdf:resource="#QueryResult"/>
+  <hasConcept rdf:resource="#Chapter"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Chapter">
+  <rdf:type rdf:resource="#Book"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Weltkrig.od_a">
+  <rdf:type rdf:resource="#QueryResult"/>
+  <hasConcept rdf:resource="#Chapter"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Guerra_mondialeWorld_war">
+  <rdf:type rdf:resource="#QueryResult"/>
+  <hasConcept rdf:resource="#censorship"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#censorship">
+  <rdf:type rdf:resource="#Documents"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Guera_mondilWw">
+  <rdf:type rdf:resource="#QueryResult"/>
+  <hasConcept rdf:resource="#official_documents"/>
+  <hasConcept rdf:resource="#documents_(object_genre)"/>
+  <hasConcept rdf:resource="#censorship"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#official_documents">
+  <rdf:type rdf:resource="#Documents"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#documents_(object_genre)">
+  <rdf:type rdf:resource="#Documents"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Second_world_war_sandals.">
+  <rdf:type rdf:resource="#QueryResult"/>
+  <hasConcept rdf:resource="#Footwear"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Footwear">
+  <rdf:type rdf:resource="#Wearable"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Second_wrlas.">
+  <rdf:type rdf:resource="#QueryResult"/>
+  <hasConcept rdf:resource="#Sandal"/>
+  <hasConcept rdf:resource="#footwear"/>
+  <hasConcept rdf:resource="#Footwear"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Sandal">
+  <rdf:type rdf:resource="#Wearable"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#footwear">
+  <rdf:type rdf:resource="#Wearable"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#World_War_I,_Prisoner_of_War_Drawings_:_Town.">
+  <rdf:type rdf:resource="#QueryResult"/>
+  <hasConcept rdf:resource="#Drawing"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Drawing">
+  <rdf:type rdf:resource="#Art"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#World_aI,PisnefDwg:T.">
+  <rdf:type rdf:resource="#QueryResult"/>
+  <hasConcept rdf:resource="#Drawing"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#World_War_One:_collecting_point">
+  <rdf:type rdf:resource="#QueryResult"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#World_aOne:ctigp">
+  <rdf:type rdf:resource="#QueryResult"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#British_World_War_II_cartoon.">
+  <rdf:type rdf:resource="#QueryResult"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Britsh_WoldaIcn.">
+  <rdf:type rdf:resource="#QueryResult"/>
+  <hasConcept rdf:resource="#Drawing"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#World_War_I:_hospital_beds">
+  <rdf:type rdf:resource="#QueryResult"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#World_aI:hspitbe">
+  <rdf:type rdf:resource="#QueryResult"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Ensimmäinen_maailmansotaWorld_War_I">
+  <rdf:type rdf:resource="#QueryResult"/>
+  <hasConcept rdf:resource="#Photograph"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Ensimäe_alotWrdI">
+  <rdf:type rdf:resource="#QueryResult"/>
+  <hasConcept rdf:resource="#Photograph"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#World_War_IEnsimmäinen_maailmansota">
+  <rdf:type rdf:resource="#QueryResult"/>
+  <hasConcept rdf:resource="#Photograph"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#World_aIEnsimäet">
+  <rdf:type rdf:resource="#QueryResult"/>
+  <hasConcept rdf:resource="#Photograph"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#A_First_World_War_barrage_balloon,_SW30">
+  <rdf:type rdf:resource="#QueryResult"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#A_FirstWoldabgen,S30">
+  <rdf:type rdf:resource="#QueryResult"/>
+  <hasConcept rdf:resource="#Fine_art"/>
+  <hasConcept rdf:resource="#Drawing"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#A_Convoy_of_the_First_World_War">
+  <rdf:type rdf:resource="#QueryResult"/>
+  <hasConcept rdf:resource="#Fine_art"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#A_ConvyftheFirsWlda">
+  <rdf:type rdf:resource="#QueryResult"/>
+  <hasConcept rdf:resource="#Fine_art"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Volunteers_in_Second_World_War">
+  <rdf:type rdf:resource="#QueryResult"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Volunters_iScdWa">
+  <rdf:type rdf:resource="#QueryResult"/>
+  <hasConcept rdf:resource="#History"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#World_War_I,_Prisoner_of_War_Drawings_:_Soldiers.">
+  <rdf:type rdf:resource="#QueryResult"/>
+  <hasConcept rdf:resource="#Drawing"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#World_aI,PisnefDwg:S.">
+  <rdf:type rdf:resource="#QueryResult"/>
+  <hasConcept rdf:resource="#Drawing"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#World_War_IErster_Weltkrieg">
+  <rdf:type rdf:resource="#QueryResult"/>
+  <hasConcept rdf:resource="#Ruins"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#World_aIEstekig">
+  <rdf:type rdf:resource="#QueryResult"/>
+  <hasConcept rdf:resource="#Print"/>
+  <hasConcept rdf:resource="#Photograph"/>
+  <hasConcept rdf:resource="#Uniform"/>
+  <hasConcept rdf:resource="#Ruins"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Erster_WeltkriegFirst_World_War">
+  <rdf:type rdf:resource="#QueryResult"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Erste_WlkigFoda">
+  <rdf:type rdf:resource="#QueryResult"/>
+  <hasConcept rdf:resource="#Photograph"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#World_War_IIToinen_maailmansota">
+  <rdf:type rdf:resource="#QueryResult"/>
+  <hasConcept rdf:resource="#Photograph"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#World_aITinemst">
+  <rdf:type rdf:resource="#QueryResult"/>
+  <hasConcept rdf:resource="#Photograph"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Toinen_maailmansotaWorld_War_II">
+  <rdf:type rdf:resource="#QueryResult"/>
+  <hasConcept rdf:resource="#Photograph"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Toine_malstWrdI">
+  <rdf:type rdf:resource="#QueryResult"/>
+  <hasConcept rdf:resource="#Photograph"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#World_War_1_Soldier:_John_OConnor">
+  <rdf:type rdf:resource="#QueryResult"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#World_a1Sie:JhnOC">
+  <rdf:type rdf:resource="#QueryResult"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Ruins">
+  <rdf:type rdf:resource="#Place"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Uniform">
+  <rdf:type rdf:resource="#Wearable"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Erster_WeltkriegWorld_War_I">
+  <rdf:type rdf:resource="#QueryResult"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Erste_WlkigodaI">
+  <rdf:type rdf:resource="#QueryResult"/>
+  <hasConcept rdf:resource="#Uniform"/>
+  <hasConcept rdf:resource="#Photograph"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#World_War_I,_Prisoner_of_War_Drawings_:_Verona.">
+  <rdf:type rdf:resource="#QueryResult"/>
+  <hasConcept rdf:resource="#Drawing"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#World_aI,PisnefDwg:V.">
+  <rdf:type rdf:resource="#QueryResult"/>
+  <hasConcept rdf:resource="#Drawing"/>
+</owl:NamedIndividual>
+
+
+</rdf:RDF>

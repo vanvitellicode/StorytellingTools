@@ -1,0 +1,735 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d6" for="edge" attr.name="width" attr.type="long" />
+  <key id="d5" for="edge" attr.name="weigth" attr.type="long" />
+  <key id="d4" for="edge" attr.name="value" attr.type="double" />
+  <key id="d3" for="edge" attr.name="title" attr.type="string" />
+  <key id="d2" for="node" attr.name="group" attr.type="long" />
+  <key id="d1" for="node" attr.name="title" attr.type="string" />
+  <key id="d0" for="node" attr.name="size" attr.type="long" />
+  <graph edgedefault="directed">
+    <node id="war_memorials">
+      <data key="d0">5</data>
+      <data key="d1">war_memorials</data>
+      <data key="d2">1</data>
+    </node>
+    <node id="Mausoleum">
+      <data key="d0">5</data>
+      <data key="d1">Mausoleum</data>
+      <data key="d2">1</data>
+    </node>
+    <node id="mausoleums">
+      <data key="d0">5</data>
+      <data key="d1">mausoleums</data>
+      <data key="d2">1</data>
+    </node>
+    <node id="Chapter">
+      <data key="d0">5</data>
+      <data key="d1">Chapter</data>
+      <data key="d2">1</data>
+    </node>
+    <node id="The_world_at_war">
+      <data key="d0">5</data>
+      <data key="d1">The_world_at_war</data>
+      <data key="d2">1</data>
+    </node>
+    <node id="pearl1">
+      <data key="d0">20</data>
+      <data key="d1">pearl1</data>
+      <data key="d2">2</data>
+    </node>
+    <node id="The_worldat">
+      <data key="d0">5</data>
+      <data key="d1">The_worldat</data>
+      <data key="d2">1</data>
+    </node>
+    <node id="Second_World_War">
+      <data key="d0">5</data>
+      <data key="d1">Second_World_War</data>
+      <data key="d2">1</data>
+    </node>
+    <node id="pearl2">
+      <data key="d0">20</data>
+      <data key="d1">pearl2</data>
+      <data key="d2">3</data>
+    </node>
+    <node id="Second_Wrla">
+      <data key="d0">5</data>
+      <data key="d1">Second_Wrla</data>
+      <data key="d2">1</data>
+    </node>
+    <node id="World_War!Weltkrieg!">
+      <data key="d0">5</data>
+      <data key="d1">World_War!Weltkrieg!</data>
+      <data key="d2">1</data>
+    </node>
+    <node id="World_a!etkig">
+      <data key="d0">5</data>
+      <data key="d1">World_a!etkig</data>
+      <data key="d2">1</data>
+    </node>
+    <node id="Medal_commemorating_the_First_World_War">
+      <data key="d0">5</data>
+      <data key="d1">Medal_commemorating_the_First_World_War</data>
+      <data key="d2">1</data>
+    </node>
+    <node id="Medal_comrtinghFsW">
+      <data key="d0">5</data>
+      <data key="d1">Medal_comrtinghFsW</data>
+      <data key="d2">1</data>
+    </node>
+    <node id="Walter_Easton_during_World_War_II">
+      <data key="d0">5</data>
+      <data key="d1">Walter_Easton_during_World_War_II</data>
+      <data key="d2">1</data>
+    </node>
+    <node id="Walter_EsonduigI">
+      <data key="d0">5</data>
+      <data key="d1">Walter_EsonduigI</data>
+      <data key="d2">1</data>
+    </node>
+    <node id="Deserted_trench_during_World_War_I">
+      <data key="d0">5</data>
+      <data key="d1">Deserted_trench_during_World_War_I</data>
+      <data key="d2">1</data>
+    </node>
+    <node id="Desrtd_nchuigWolaI">
+      <data key="d0">5</data>
+      <data key="d1">Desrtd_nchuigWolaI</data>
+      <data key="d2">1</data>
+    </node>
+    <node id="Bernat_Szanto_in_World_War_I">
+      <data key="d0">5</data>
+      <data key="d1">Bernat_Szanto_in_World_War_I</data>
+      <data key="d2">1</data>
+    </node>
+    <node id="Bernat_SzoiWldI">
+      <data key="d0">5</data>
+      <data key="d1">Bernat_SzoiWldI</data>
+      <data key="d2">1</data>
+    </node>
+    <node id="krig,_andra_världskrigetWar,_World_War_II">
+      <data key="d0">5</data>
+      <data key="d1">krig,_andra_världskrigetWar,_World_War_II</data>
+      <data key="d2">1</data>
+    </node>
+    <node id="krig,_andvälsetWoI">
+      <data key="d0">5</data>
+      <data key="d1">krig,_andvälsetWoI</data>
+      <data key="d2">1</data>
+    </node>
+    <node id="War,_World_War_IIkrig,_andra_världskriget">
+      <data key="d0">5</data>
+      <data key="d1">War,_World_War_IIkrig,_andra_världskriget</data>
+      <data key="d2">1</data>
+    </node>
+    <node id="War,_oldIkignväset">
+      <data key="d0">5</data>
+      <data key="d1">War,_oldIkignväset</data>
+      <data key="d2">1</data>
+    </node>
+    <node id="Second_World_War,_Warandra_världskriget,_krig">
+      <data key="d0">5</data>
+      <data key="d1">Second_World_War,_Warandra_världskriget,_krig</data>
+      <data key="d2">1</data>
+    </node>
+    <node id="Second_Wrla,väskigt">
+      <data key="d0">5</data>
+      <data key="d1">Second_Wrla,väskigt</data>
+      <data key="d2">1</data>
+    </node>
+    <node id="Stellungskrieg_im_WeltkriegWorld_War_position_war">
+      <data key="d0">5</data>
+      <data key="d1">Stellungskrieg_im_WeltkriegWorld_War_position_war</data>
+      <data key="d2">1</data>
+    </node>
+    <node id="Stelungskri_mWodapw">
+      <data key="d0">5</data>
+      <data key="d1">Stelungskri_mWodapw</data>
+      <data key="d2">1</data>
+    </node>
+    <node id="WeltkriegsehrenmalWorld_War_II">
+      <data key="d0">5</data>
+      <data key="d1">WeltkriegsehrenmalWorld_War_II</data>
+      <data key="d2">1</data>
+    </node>
+    <node id="pearl3">
+      <data key="d0">20</data>
+      <data key="d1">pearl3</data>
+      <data key="d2">4</data>
+    </node>
+    <node id="Weltkrigshnmaod_I">
+      <data key="d0">5</data>
+      <data key="d1">Weltkrigshnmaod_I</data>
+      <data key="d2">1</data>
+    </node>
+    <node id="WeltkriegsmausoleumWorld_War_II">
+      <data key="d0">5</data>
+      <data key="d1">WeltkriegsmausoleumWorld_War_II</data>
+      <data key="d2">1</data>
+    </node>
+    <node id="Weltkrigsmauod_I">
+      <data key="d0">5</data>
+      <data key="d1">Weltkrigsmauod_I</data>
+      <data key="d2">1</data>
+    </node>
+    <node id="Weltkrieg.World_War.">
+      <data key="d0">5</data>
+      <data key="d1">Weltkrieg.World_War.</data>
+      <data key="d2">1</data>
+    </node>
+    <node id="Weltkrig.od_a">
+      <data key="d0">5</data>
+      <data key="d1">Weltkrig.od_a</data>
+      <data key="d2">1</data>
+    </node>
+    <node id="Guerra_mondialeWorld_war">
+      <data key="d0">5</data>
+      <data key="d1">Guerra_mondialeWorld_war</data>
+      <data key="d2">1</data>
+    </node>
+    <node id="Guera_mondilWw">
+      <data key="d0">5</data>
+      <data key="d1">Guera_mondilWw</data>
+      <data key="d2">1</data>
+    </node>
+    <node id="Second_world_war_sandals.">
+      <data key="d0">5</data>
+      <data key="d1">Second_world_war_sandals.</data>
+      <data key="d2">1</data>
+    </node>
+    <node id="Second_wrlas.">
+      <data key="d0">5</data>
+      <data key="d1">Second_wrlas.</data>
+      <data key="d2">1</data>
+    </node>
+    <node id="World_War_I,_Prisoner_of_War_Drawings_:_Town.">
+      <data key="d0">5</data>
+      <data key="d1">World_War_I,_Prisoner_of_War_Drawings_:_Town.</data>
+      <data key="d2">1</data>
+    </node>
+    <node id="World_aI,PisnefDwg:T.">
+      <data key="d0">5</data>
+      <data key="d1">World_aI,PisnefDwg:T.</data>
+      <data key="d2">1</data>
+    </node>
+    <node id="World_War_One:_collecting_point">
+      <data key="d0">5</data>
+      <data key="d1">World_War_One:_collecting_point</data>
+      <data key="d2">1</data>
+    </node>
+    <node id="World_aOne:ctigp">
+      <data key="d0">5</data>
+      <data key="d1">World_aOne:ctigp</data>
+      <data key="d2">1</data>
+    </node>
+    <node id="British_World_War_II_cartoon.">
+      <data key="d0">5</data>
+      <data key="d1">British_World_War_II_cartoon.</data>
+      <data key="d2">1</data>
+    </node>
+    <node id="Britsh_WoldaIcn.">
+      <data key="d0">5</data>
+      <data key="d1">Britsh_WoldaIcn.</data>
+      <data key="d2">1</data>
+    </node>
+    <node id="World_War_I:_hospital_beds">
+      <data key="d0">5</data>
+      <data key="d1">World_War_I:_hospital_beds</data>
+      <data key="d2">1</data>
+    </node>
+    <node id="World_aI:hspitbe">
+      <data key="d0">5</data>
+      <data key="d1">World_aI:hspitbe</data>
+      <data key="d2">1</data>
+    </node>
+    <node id="Ensimmäinen_maailmansotaWorld_War_I">
+      <data key="d0">5</data>
+      <data key="d1">Ensimmäinen_maailmansotaWorld_War_I</data>
+      <data key="d2">1</data>
+    </node>
+    <node id="Ensimäe_alotWrdI">
+      <data key="d0">5</data>
+      <data key="d1">Ensimäe_alotWrdI</data>
+      <data key="d2">1</data>
+    </node>
+    <node id="World_War_IEnsimmäinen_maailmansota">
+      <data key="d0">5</data>
+      <data key="d1">World_War_IEnsimmäinen_maailmansota</data>
+      <data key="d2">1</data>
+    </node>
+    <node id="World_aIEnsimäet">
+      <data key="d0">5</data>
+      <data key="d1">World_aIEnsimäet</data>
+      <data key="d2">1</data>
+    </node>
+    <node id="A_First_World_War_barrage_balloon,_SW30">
+      <data key="d0">5</data>
+      <data key="d1">A_First_World_War_barrage_balloon,_SW30</data>
+      <data key="d2">1</data>
+    </node>
+    <node id="A_FirstWoldabgen,S30">
+      <data key="d0">5</data>
+      <data key="d1">A_FirstWoldabgen,S30</data>
+      <data key="d2">1</data>
+    </node>
+    <node id="A_Convoy_of_the_First_World_War">
+      <data key="d0">5</data>
+      <data key="d1">A_Convoy_of_the_First_World_War</data>
+      <data key="d2">1</data>
+    </node>
+    <node id="A_ConvyftheFirsWlda">
+      <data key="d0">5</data>
+      <data key="d1">A_ConvyftheFirsWlda</data>
+      <data key="d2">1</data>
+    </node>
+    <node id="Volunteers_in_Second_World_War">
+      <data key="d0">5</data>
+      <data key="d1">Volunteers_in_Second_World_War</data>
+      <data key="d2">1</data>
+    </node>
+    <node id="Volunters_iScdWa">
+      <data key="d0">5</data>
+      <data key="d1">Volunters_iScdWa</data>
+      <data key="d2">1</data>
+    </node>
+    <node id="World_War_I,_Prisoner_of_War_Drawings_:_Soldiers.">
+      <data key="d0">5</data>
+      <data key="d1">World_War_I,_Prisoner_of_War_Drawings_:_Soldiers.</data>
+      <data key="d2">1</data>
+    </node>
+    <node id="World_aI,PisnefDwg:S.">
+      <data key="d0">5</data>
+      <data key="d1">World_aI,PisnefDwg:S.</data>
+      <data key="d2">1</data>
+    </node>
+    <node id="World_War_IErster_Weltkrieg">
+      <data key="d0">5</data>
+      <data key="d1">World_War_IErster_Weltkrieg</data>
+      <data key="d2">1</data>
+    </node>
+    <node id="World_aIEstekig">
+      <data key="d0">5</data>
+      <data key="d1">World_aIEstekig</data>
+      <data key="d2">1</data>
+    </node>
+    <node id="World_War_IIToinen_maailmansota">
+      <data key="d0">5</data>
+      <data key="d1">World_War_IIToinen_maailmansota</data>
+      <data key="d2">1</data>
+    </node>
+    <node id="World_aITinemst">
+      <data key="d0">5</data>
+      <data key="d1">World_aITinemst</data>
+      <data key="d2">1</data>
+    </node>
+    <node id="Erster_WeltkriegFirst_World_War">
+      <data key="d0">5</data>
+      <data key="d1">Erster_WeltkriegFirst_World_War</data>
+      <data key="d2">1</data>
+    </node>
+    <node id="Erste_WlkigFoda">
+      <data key="d0">5</data>
+      <data key="d1">Erste_WlkigFoda</data>
+      <data key="d2">1</data>
+    </node>
+    <node id="Toinen_maailmansotaWorld_War_II">
+      <data key="d0">5</data>
+      <data key="d1">Toinen_maailmansotaWorld_War_II</data>
+      <data key="d2">1</data>
+    </node>
+    <node id="Toine_malstWrdI">
+      <data key="d0">5</data>
+      <data key="d1">Toine_malstWrdI</data>
+      <data key="d2">1</data>
+    </node>
+    <node id="World_War_1_Soldier:_John_OConnor">
+      <data key="d0">5</data>
+      <data key="d1">World_War_1_Soldier:_John_OConnor</data>
+      <data key="d2">1</data>
+    </node>
+    <node id="World_a1Sie:JhnOC">
+      <data key="d0">5</data>
+      <data key="d1">World_a1Sie:JhnOC</data>
+      <data key="d2">1</data>
+    </node>
+    <node id="Erster_WeltkriegWorld_War_I">
+      <data key="d0">5</data>
+      <data key="d1">Erster_WeltkriegWorld_War_I</data>
+      <data key="d2">1</data>
+    </node>
+    <node id="Erste_WlkigodaI">
+      <data key="d0">5</data>
+      <data key="d1">Erste_WlkigodaI</data>
+      <data key="d2">1</data>
+    </node>
+    <node id="World_War_I,_Prisoner_of_War_Drawings_:_Landscape.">
+      <data key="d0">5</data>
+      <data key="d1">World_War_I,_Prisoner_of_War_Drawings_:_Landscape.</data>
+      <data key="d2">1</data>
+    </node>
+    <node id="World_aI,PisnefDwg:Lcp.">
+      <data key="d0">5</data>
+      <data key="d1">World_aI,PisnefDwg:Lcp.</data>
+      <data key="d2">1</data>
+    </node>
+    <node id="World_War_I,_Prisoner_of_War_Drawings_:_Verona.">
+      <data key="d0">5</data>
+      <data key="d1">World_War_I,_Prisoner_of_War_Drawings_:_Verona.</data>
+      <data key="d2">1</data>
+    </node>
+    <node id="World_aI,PisnefDwg:V.">
+      <data key="d0">5</data>
+      <data key="d1">World_aI,PisnefDwg:V.</data>
+      <data key="d2">1</data>
+    </node>
+    <edge source="pearl1" target="The_world_at_war">
+      <data key="d3">weight = 3</data>
+      <data key="d4">0.3</data>
+      <data key="d5">3</data>
+      <data key="d6">1</data>
+    </edge>
+    <edge source="pearl1" target="The_worldat">
+      <data key="d3">weight = 3</data>
+      <data key="d4">0.3</data>
+      <data key="d5">3</data>
+      <data key="d6">1</data>
+    </edge>
+    <edge source="pearl1" target="Second_Wrla">
+      <data key="d3">weight = 3</data>
+      <data key="d4">0.3</data>
+      <data key="d5">3</data>
+      <data key="d6">1</data>
+    </edge>
+    <edge source="pearl1" target="World_War!Weltkrieg!">
+      <data key="d3">weight = 3</data>
+      <data key="d4">0.3</data>
+      <data key="d5">3</data>
+      <data key="d6">1</data>
+    </edge>
+    <edge source="pearl1" target="World_a!etkig">
+      <data key="d3">weight = 6</data>
+      <data key="d4">0.6</data>
+      <data key="d5">6</data>
+      <data key="d6">1</data>
+    </edge>
+    <edge source="pearl1" target="Medal_commemorating_the_First_World_War">
+      <data key="d3">weight = 2</data>
+      <data key="d4">0.2</data>
+      <data key="d5">2</data>
+      <data key="d6">1</data>
+    </edge>
+    <edge source="pearl1" target="Medal_comrtinghFsW">
+      <data key="d3">weight = 2</data>
+      <data key="d4">0.2</data>
+      <data key="d5">2</data>
+      <data key="d6">1</data>
+    </edge>
+    <edge source="pearl1" target="Walter_Easton_during_World_War_II">
+      <data key="d3">weight = 1</data>
+      <data key="d4">0.1</data>
+      <data key="d5">1</data>
+      <data key="d6">1</data>
+    </edge>
+    <edge source="pearl1" target="Walter_EsonduigI">
+      <data key="d3">weight = 3</data>
+      <data key="d4">0.3</data>
+      <data key="d5">3</data>
+      <data key="d6">1</data>
+    </edge>
+    <edge source="pearl1" target="A_FirstWoldabgen,S30">
+      <data key="d3">weight = 1</data>
+      <data key="d4">0.1</data>
+      <data key="d5">1</data>
+      <data key="d6">1</data>
+    </edge>
+    <edge source="pearl1" target="A_Convoy_of_the_First_World_War">
+      <data key="d3">weight = 1</data>
+      <data key="d4">0.1</data>
+      <data key="d5">1</data>
+      <data key="d6">1</data>
+    </edge>
+    <edge source="pearl1" target="A_ConvyftheFirsWlda">
+      <data key="d3">weight = 2</data>
+      <data key="d4">0.2</data>
+      <data key="d5">2</data>
+      <data key="d6">1</data>
+    </edge>
+    <edge source="pearl1" target="Volunters_iScdWa">
+      <data key="d3">weight = 3</data>
+      <data key="d4">0.3</data>
+      <data key="d5">3</data>
+      <data key="d6">1</data>
+    </edge>
+    <edge source="pearl1" target="World_aIEstekig">
+      <data key="d3">weight = 3</data>
+      <data key="d4">0.3</data>
+      <data key="d5">3</data>
+      <data key="d6">1</data>
+    </edge>
+    <edge source="pearl2" target="Second_World_War">
+      <data key="d3">weight = 2</data>
+      <data key="d4">0.2</data>
+      <data key="d5">2</data>
+      <data key="d6">1</data>
+    </edge>
+    <edge source="pearl2" target="Deserted_trench_during_World_War_I">
+      <data key="d3">weight = 1</data>
+      <data key="d4">0.1</data>
+      <data key="d5">1</data>
+      <data key="d6">1</data>
+    </edge>
+    <edge source="pearl2" target="Desrtd_nchuigWolaI">
+      <data key="d3">weight = 2</data>
+      <data key="d4">0.2</data>
+      <data key="d5">2</data>
+      <data key="d6">1</data>
+    </edge>
+    <edge source="pearl2" target="Bernat_Szanto_in_World_War_I">
+      <data key="d3">weight = 1</data>
+      <data key="d4">0.1</data>
+      <data key="d5">1</data>
+      <data key="d6">1</data>
+    </edge>
+    <edge source="pearl2" target="Bernat_SzoiWldI">
+      <data key="d3">weight = 1</data>
+      <data key="d4">0.1</data>
+      <data key="d5">1</data>
+      <data key="d6">1</data>
+    </edge>
+    <edge source="pearl2" target="krig,_andra_världskrigetWar,_World_War_II">
+      <data key="d3">weight = 1</data>
+      <data key="d4">0.1</data>
+      <data key="d5">1</data>
+      <data key="d6">1</data>
+    </edge>
+    <edge source="pearl2" target="krig,_andvälsetWoI">
+      <data key="d3">weight = 1</data>
+      <data key="d4">0.1</data>
+      <data key="d5">1</data>
+      <data key="d6">1</data>
+    </edge>
+    <edge source="pearl2" target="War,_World_War_IIkrig,_andra_världskriget">
+      <data key="d3">weight = 1</data>
+      <data key="d4">0.1</data>
+      <data key="d5">1</data>
+      <data key="d6">1</data>
+    </edge>
+    <edge source="pearl2" target="War,_oldIkignväset">
+      <data key="d3">weight = 1</data>
+      <data key="d4">0.1</data>
+      <data key="d5">1</data>
+      <data key="d6">1</data>
+    </edge>
+    <edge source="pearl2" target="Second_World_War,_Warandra_världskriget,_krig">
+      <data key="d3">weight = 1</data>
+      <data key="d4">0.1</data>
+      <data key="d5">1</data>
+      <data key="d6">1</data>
+    </edge>
+    <edge source="pearl2" target="Second_Wrla,väskigt">
+      <data key="d3">weight = 1</data>
+      <data key="d4">0.1</data>
+      <data key="d5">1</data>
+      <data key="d6">1</data>
+    </edge>
+    <edge source="pearl2" target="Stellungskrieg_im_WeltkriegWorld_War_position_war">
+      <data key="d3">weight = 1</data>
+      <data key="d4">0.1</data>
+      <data key="d5">1</data>
+      <data key="d6">1</data>
+    </edge>
+    <edge source="pearl2" target="Stelungskri_mWodapw">
+      <data key="d3">weight = 17</data>
+      <data key="d4">1.7</data>
+      <data key="d5">17</data>
+      <data key="d6">1</data>
+    </edge>
+    <edge source="pearl2" target="Guerra_mondialeWorld_war">
+      <data key="d3">weight = 3</data>
+      <data key="d4">0.3</data>
+      <data key="d5">3</data>
+      <data key="d6">1</data>
+    </edge>
+    <edge source="pearl2" target="Guera_mondilWw">
+      <data key="d3">weight = 3</data>
+      <data key="d4">0.3</data>
+      <data key="d5">3</data>
+      <data key="d6">1</data>
+    </edge>
+    <edge source="pearl2" target="Second_world_war_sandals.">
+      <data key="d3">weight = 3</data>
+      <data key="d4">0.3</data>
+      <data key="d5">3</data>
+      <data key="d6">1</data>
+    </edge>
+    <edge source="pearl2" target="Second_wrlas.">
+      <data key="d3">weight = 3</data>
+      <data key="d4">0.3</data>
+      <data key="d5">3</data>
+      <data key="d6">1</data>
+    </edge>
+    <edge source="pearl2" target="World_War_One:_collecting_point">
+      <data key="d3">weight = 2</data>
+      <data key="d4">0.2</data>
+      <data key="d5">2</data>
+      <data key="d6">1</data>
+    </edge>
+    <edge source="pearl2" target="World_aOne:ctigp">
+      <data key="d3">weight = 2</data>
+      <data key="d4">0.2</data>
+      <data key="d5">2</data>
+      <data key="d6">1</data>
+    </edge>
+    <edge source="pearl2" target="Britsh_WoldaIcn.">
+      <data key="d3">weight = 1</data>
+      <data key="d4">0.1</data>
+      <data key="d5">1</data>
+      <data key="d6">1</data>
+    </edge>
+    <edge source="pearl2" target="World_War_I:_hospital_beds">
+      <data key="d3">weight = 2</data>
+      <data key="d4">0.2</data>
+      <data key="d5">2</data>
+      <data key="d6">1</data>
+    </edge>
+    <edge source="pearl2" target="World_aI:hspitbe">
+      <data key="d3">weight = 2</data>
+      <data key="d4">0.2</data>
+      <data key="d5">2</data>
+      <data key="d6">1</data>
+    </edge>
+    <edge source="pearl2" target="Ensimmäinen_maailmansotaWorld_War_I">
+      <data key="d3">weight = 1</data>
+      <data key="d4">0.1</data>
+      <data key="d5">1</data>
+      <data key="d6">1</data>
+    </edge>
+    <edge source="pearl2" target="Ensimäe_alotWrdI">
+      <data key="d3">weight = 1</data>
+      <data key="d4">0.1</data>
+      <data key="d5">1</data>
+      <data key="d6">1</data>
+    </edge>
+    <edge source="pearl2" target="World_War_IEnsimmäinen_maailmansota">
+      <data key="d3">weight = 1</data>
+      <data key="d4">0.1</data>
+      <data key="d5">1</data>
+      <data key="d6">1</data>
+    </edge>
+    <edge source="pearl2" target="World_aIEnsimäet">
+      <data key="d3">weight = 1</data>
+      <data key="d4">0.1</data>
+      <data key="d5">1</data>
+      <data key="d6">1</data>
+    </edge>
+    <edge source="pearl2" target="Volunteers_in_Second_World_War">
+      <data key="d3">weight = 2</data>
+      <data key="d4">0.2</data>
+      <data key="d5">2</data>
+      <data key="d6">1</data>
+    </edge>
+    <edge source="pearl2" target="World_War_IErster_Weltkrieg">
+      <data key="d3">weight = 2</data>
+      <data key="d4">0.2</data>
+      <data key="d5">2</data>
+      <data key="d6">1</data>
+    </edge>
+    <edge source="pearl2" target="World_War_IIToinen_maailmansota">
+      <data key="d3">weight = 1</data>
+      <data key="d4">0.1</data>
+      <data key="d5">1</data>
+      <data key="d6">1</data>
+    </edge>
+    <edge source="pearl2" target="World_aITinemst">
+      <data key="d3">weight = 1</data>
+      <data key="d4">0.1</data>
+      <data key="d5">1</data>
+      <data key="d6">1</data>
+    </edge>
+    <edge source="pearl2" target="Erster_WeltkriegFirst_World_War">
+      <data key="d3">weight = 2</data>
+      <data key="d4">0.2</data>
+      <data key="d5">2</data>
+      <data key="d6">1</data>
+    </edge>
+    <edge source="pearl2" target="Erste_WlkigFoda">
+      <data key="d3">weight = 1</data>
+      <data key="d4">0.1</data>
+      <data key="d5">1</data>
+      <data key="d6">1</data>
+    </edge>
+    <edge source="pearl2" target="Toinen_maailmansotaWorld_War_II">
+      <data key="d3">weight = 1</data>
+      <data key="d4">0.1</data>
+      <data key="d5">1</data>
+      <data key="d6">1</data>
+    </edge>
+    <edge source="pearl2" target="Toine_malstWrdI">
+      <data key="d3">weight = 2</data>
+      <data key="d4">0.2</data>
+      <data key="d5">2</data>
+      <data key="d6">1</data>
+    </edge>
+    <edge source="pearl2" target="World_War_1_Soldier:_John_OConnor">
+      <data key="d3">weight = 2</data>
+      <data key="d4">0.2</data>
+      <data key="d5">2</data>
+      <data key="d6">1</data>
+    </edge>
+    <edge source="pearl2" target="World_a1Sie:JhnOC">
+      <data key="d3">weight = 2</data>
+      <data key="d4">0.2</data>
+      <data key="d5">2</data>
+      <data key="d6">1</data>
+    </edge>
+    <edge source="pearl2" target="Erster_WeltkriegWorld_War_I">
+      <data key="d3">weight = 2</data>
+      <data key="d4">0.2</data>
+      <data key="d5">2</data>
+      <data key="d6">1</data>
+    </edge>
+    <edge source="pearl2" target="Erste_WlkigodaI">
+      <data key="d3">weight = 1</data>
+      <data key="d4">0.1</data>
+      <data key="d5">1</data>
+      <data key="d6">1</data>
+    </edge>
+    <edge source="pearl3" target="WeltkriegsehrenmalWorld_War_II">
+      <data key="d3">weight = 1</data>
+      <data key="d4">0.1</data>
+      <data key="d5">1</data>
+      <data key="d6">1</data>
+    </edge>
+    <edge source="pearl3" target="Weltkrigshnmaod_I">
+      <data key="d3">weight = 1</data>
+      <data key="d4">0.1</data>
+      <data key="d5">1</data>
+      <data key="d6">1</data>
+    </edge>
+    <edge source="pearl3" target="WeltkriegsmausoleumWorld_War_II">
+      <data key="d3">weight = 1</data>
+      <data key="d4">0.1</data>
+      <data key="d5">1</data>
+      <data key="d6">1</data>
+    </edge>
+    <edge source="pearl3" target="Weltkrigsmauod_I">
+      <data key="d3">weight = 3</data>
+      <data key="d4">0.3</data>
+      <data key="d5">3</data>
+      <data key="d6">1</data>
+    </edge>
+    <edge source="pearl3" target="Weltkrieg.World_War.">
+      <data key="d3">weight = 1</data>
+      <data key="d4">0.1</data>
+      <data key="d5">1</data>
+      <data key="d6">1</data>
+    </edge>
+    <edge source="pearl3" target="Weltkrig.od_a">
+      <data key="d3">weight = 1</data>
+      <data key="d4">0.1</data>
+      <data key="d5">1</data>
+      <data key="d6">1</data>
+    </edge>
+  </graph>
+</graphml>

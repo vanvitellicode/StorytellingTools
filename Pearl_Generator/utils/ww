@@ -1,0 +1,76 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:owl="http://www.w3.org/2002/07/owl#"
+         xml:base="http://www.semanticweb.org/brndra94b21b715d/ontologies/2024/2/untitled-ontology-4"
+         xmlns="http://www.semanticweb.org/brndra94b21b715d/ontologies/2024/2/untitled-ontology-4#">
+
+<owl:Ontology rdf:about="http://www.semanticweb.org/brndra94b21b715d/ontologies/2024/2/untitled-ontology-4"/>
+
+<owl:Class rdf:about="#Art"/>
+
+<owl:Class rdf:about="#Book">
+  <rdfs:subClassOf rdf:resource="#Documents"/>
+</owl:Class>
+
+<owl:Class rdf:about="#Documents"/>
+
+<owl:Class rdf:about="#Event"/>
+
+<owl:Class rdf:about="#Material"/>
+
+<owl:Class rdf:about="#Metal">
+  <rdfs:subClassOf rdf:resource="#Material"/>
+</owl:Class>
+
+<owl:Class rdf:about="#QueryResult"/>
+
+<owl:Class rdf:about="#Topic"/>
+
+<owl:Class rdf:about="#War">
+  <rdfs:subClassOf rdf:resource="#Event"/>
+</owl:Class>
+
+<owl:Class rdf:about="#painting_technique">
+  <rdfs:subClassOf rdf:resource="#Art"/>
+</owl:Class>
+
+<owl:NamedIndividual rdf:about="#['The world at war']">
+  <rdf:type rdf:resource="#QueryResult"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#['Second World War']">
+  <rdf:type rdf:resource="#QueryResult"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#['World War!', 'Weltkrieg!']">
+  <rdf:type rdf:resource="#QueryResult"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#['Medal commemorating the First World War']">
+  <rdf:type rdf:resource="#QueryResult"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#['Walter Easton during World War II']">
+  <rdf:type rdf:resource="#QueryResult"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#['Deserted trench during World War I']">
+  <rdf:type rdf:resource="#QueryResult"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#['Bernat Szanto in World War I']">
+  <rdf:type rdf:resource="#QueryResult"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#['krig, andra världskriget', 'War, World War II']">
+  <rdf:type rdf:resource="#QueryResult"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#['War, World War II', 'krig, andra världskriget']">
+  <rdf:type rdf:resource="#QueryResult"/>
+</owl:NamedIndividual>
+
+
+</rdf:RDF>

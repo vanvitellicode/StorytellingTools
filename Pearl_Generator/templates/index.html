@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html data-bs-theme="light" lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>Untitled</title>
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/Navbar-With-Button-icons.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"  crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+
+<body>
+    <style>
+        .form-select {
+          width: auto;
+        }
+
+      </style>
+    <nav class="navbar navbar-expand-md bg-body py-3">
+        <div class="container"><a class="navbar-brand d-flex align-items-center" href="#"><span class="bs-icon-sm bs-icon-rounded bs-icon-primary d-flex justify-content-center align-items-center me-2 bs-icon"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-bezier">
+                        <path fill-rule="evenodd" d="M0 10.5A1.5 1.5 0 0 1 1.5 9h1A1.5 1.5 0 0 1 4 10.5v1A1.5 1.5 0 0 1 2.5 13h-1A1.5 1.5 0 0 1 0 11.5zm1.5-.5a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5zm10.5.5A1.5 1.5 0 0 1 13.5 9h1a1.5 1.5 0 0 1 1.5 1.5v1a1.5 1.5 0 0 1-1.5 1.5h-1a1.5 1.5 0 0 1-1.5-1.5zm1.5-.5a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5zM6 4.5A1.5 1.5 0 0 1 7.5 3h1A1.5 1.5 0 0 1 10 4.5v1A1.5 1.5 0 0 1 8.5 7h-1A1.5 1.5 0 0 1 6 5.5zM7.5 4a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5z"></path>
+                        <path d="M6 4.5H1.866a1 1 0 1 0 0 1h2.668A6.517 6.517 0 0 0 1.814 9H2.5c.123 0 .244.015.358.043a5.517 5.517 0 0 1 3.185-3.185A1.503 1.503 0 0 1 6 5.5zm3.957 1.358A1.5 1.5 0 0 0 10 5.5v-1h4.134a1 1 0 1 1 0 1h-2.668a6.517 6.517 0 0 1 2.72 3.5H13.5c-.123 0-.243.015-.358.043a5.517 5.517 0 0 0-3.185-3.185z"></path>
+                    </svg></span><span>String of Pearls Generator</span></a><button data-bs-toggle="collapse" class="navbar-toggler" data-bs-target="#navcol-1"><span class="visually-hidden">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
+            <div class="collapse navbar-collapse" id="navcol-1">
+                <ul class="navbar-nav me-auto">
+                    <li class="nav-item"><a class="nav-link active" href="/">Create Pearls</a></li>
+                    <li class="nav-item"><a class="nav-link" href="/content_index">Add Multimedia Contents</a></li>
+                    <li class="nav-item"><a class="nav-link" href="/visualizePearls">Visualize Pearls</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="card" style="margin-left: 20px;margin-right: 20px;">
+        <div class="card-body">
+            <div class="row">
+                <div class="col"><label class="col-form-label" style="margin: initial;margin-top: 20px;">Select Pearls Concept Ontology</label></div>
+                <div class="col">
+                <form action="/upload" method="post" enctype="multipart/form-data">
+                 <input type="file" name="file" accept=".owl" style="margin: initial;margin-top: 20px;margin-bottom: 20px;"></div>
+
+            <div class="col"><button class="btn btn-success" type="submit" style="margin-top: 20px;">Load Ontology</button></div></form></div>
+
+            </div>
+
+            <div class="row">
+                <div class="col">
+                    <div class="row">
+                        <form action="/create_pearl" method="post">
+                            <div class="col"><button class="btn btn-success" type="submit" style="margin-bottom: 20px;margin-left: 20px;">Create a Pearl</button></div>
+                        </form>                    
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="card" style="margin-left: 20px;margin-right: 20px;margin-top: 20px;">
+        <div class="card-body">
+            <div class="row">
+                <div class="col"><label class="col-form-label" style="margin-left: 20px;">Select pearl to be associated with a concept</label></div>
+                <div class="col"><label class="col-form-label">Select Class associated to pearl</label></div>
+
+            </div>
+            <div class="row">
+                <div class="col" style="margin-top: 20px; margin-left: 20px;">
+                    <select id="pearlSelect" class="form-select">
+                        {% for pearl in pearls %}
+                            <option value="{{ pearl }}" {% if loop.first %}selected{% endif %}>{{ pearl.split('.')[-1] }}</option>
+                        {% endfor %}
+                    </select>
+                </div>
+                <div class="col">
+                        
+                    <table class="table table-striped border">
+                        <thead>
+                          <tr>
+                            <th>&nbsp;</th>
+                            <th>Name</th>
+                            <th>Selected?</th>
+                          </tr>
+                        </thead>
+                      
+                        {% macro render_tree(d, id_prefix='') %}
+                        {% for k, v in d.items() %}
+                        <tbody>
+                          <tr>
+                            <td><a class="btn btn-sm btn-minimal" data-bs-toggle="collapse" href="#{{ id_prefix }}_{{ loop.index }}" role="button" aria-expanded="false">&gt;</a></td>
+                            <td><span style="color: #FFD700;"><i class="fas fa-circle"></i></span>  {{ k }}</td>
+
+                            <td><input type="checkbox" id="{{ k }}_____{{ id_prefix }}____selection" class="pairCheckbox"></td>
+                          </tr>
+                          <tr class="collapse" id="{{ id_prefix }}_{{ loop.index }}">
+                            <td colspan="3">
+                              {% if v %}
+                              <table class="table table-striped border">
+                                <tbody>
+                                  {{ render_tree(v, id_prefix ~ '_' ~ loop.index) }}
+                                </tbody>
+                              </table>
+                              {% endif %}
+                            </td>
+                          </tr>
+                        </tbody>
+                        {% endfor %}
+                        {% endmacro %}
+                      
+                        {{ render_tree(tree) }}
+                      
+                      </table>
+                        
+                    </select></div>
+
+            <!-- insert a numberpick -->
+            <div class="col" style="margin-top: 20px;"></div>
+            </div>
+            <div class="row">
+                <div id="deleteBtn" class="col" style="margin-top: 20px;"><button class="btn btn-danger" type="button" style="margin-left: 20px; ">Delete Selected Pearl</button></div>
+                <div id="associateBtn" class="col" style="margin-top: 20px;"><button  class="btn btn-primary" type="button">Associate Pearl to Class</button></div>
+            </div>
+        </div>
+    </div>
+    <div class="card" style="margin-left: 20px;margin-right: 20px;margin-top: 20px;">
+        <div class="card-body">
+            <div class="table-responsive" style="margin-top: 20px;margin-left: 20px;margin-right: 20px;">
+                <table class="table"  id="pearlTable">
+                    <thead>
+                        <tr>
+                            <th>Pearl</th>
+                            <th>Class</th>
+                            <th>Weight</th>
+                            <th>Delete</th>
+
+                        </tr>
+                    </thead>
+                    <tbody>
+                        {% for pair in pairs %}
+                        <tr class="pearlRow">
+                            <td>{{ pair[0].split(".")[-1] }}</td>
+                            <td>{{ pair[1].split(".")[-1] }}</td>
+                            <!--let the user to modify the weight-->
+                            <td><input type="number" id="{{ pair[0] }}_____{{ pair[1] }}_____weight" name="weight" min="1" max="10" value="{{ pair[2] }}"></td>
+                            <td><input type="checkbox" id="{{ pair[0] }}_____{{ pair[1] }}" class="pairCheckbox"></td>
+                        </tr>
+                        {% endfor %}
+                    </tbody>
+                </table>
+            </div>
+            <div class="row">
+                <div id="changeWeight" class="col" style="margin-top: 20px;"><button class="btn btn-primary" type="button" style=" margin-left: 20px; margin-bottom: 20px;">Change weights</button></div>
+                <div id="deleteAss" class="col" style="margin-top: 20px;"><button class="btn btn-danger" type="button" style=" margin-left: 20px; margin-bottom: 20px;">Delete Selected Associations</button></div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        document.getElementById("deleteBtn").addEventListener("click", function() {
+            var select = document.getElementById("pearlSelect");
+            var selectedValue = select.options[select.selectedIndex].value;
+            fetch('/delete', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json'
+                },
+                body: JSON.stringify({
+                    selectedValue: selectedValue
+                })
+            }).then(response => {
+                if (response.ok) {
+                    // handle success, maybe refresh the page or update UI
+                    console.log("Pearl deleted successfully.");
+                } else {
+                    // handle error
+                    console.error("Failed to delete pearl.");
+                }
+            }).catch(error => {
+                console.error("Error:", error);
+            });
+            //go to home reloading page
+            window.location.href = "http://localhost:5000/";
+        });
+
+
+        document.getElementById("associateBtn").addEventListener("click", function() {
+            var selectPearl = document.getElementById("pearlSelect");
+            //get all the type checkbox with selection in the id
+            var checkboxes = document.querySelectorAll('input[type="checkbox"]:checked');
+            var selectedclasses = [];
+            checkboxes.forEach(function(checkbox) {
+                if (checkbox.id.includes("selection")) {
+                    selectedclasses.push(checkbox.id);
+                }
+            });
+
+
+            var selectedValuePearl = selectPearl.options[selectPearl.selectedIndex].value;
+            fetch('/associatePearlToClass', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json'
+                },
+                body: JSON.stringify({
+                    selectedValuePearl: selectedValuePearl,
+                    selectedValueClass: selectedclasses,
+                })
+            }).then(response => {
+                if (response.ok) {
+                    // handle success, maybe refresh the page or update UI
+                    console.log("Pearl associated successfully.");
+                } else {
+                    // handle error
+                    console.error("Failed to associate pearl.");
+                }
+            }).catch(error => {
+                console.error("Error:", error);
+            });
+            //go to home reloading page
+            window.location.href = "http://localhost:5000/";
+        });
+
+        document.getElementById("deleteAss").addEventListener("click", function() {
+
+            var selectedCheckboxIds = [];
+
+            // Trova tutte le checkbox selezionate
+            var checkboxes = document.getElementsByClassName("pairCheckbox");
+            for (var i = 0; i < checkboxes.length; i++) {
+                if (checkboxes[i].checked) {
+                    selectedCheckboxIds.push(checkboxes[i].id);
+                }
+            }
+
+            fetch('/disassociatePearlToClass', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json'
+                },
+                body: JSON.stringify({
+                    selectedCheckboxIds: selectedCheckboxIds  // Passa gli ID delle checkbox selezionate
+                })
+            }).then(response => {
+                if (response.ok) {
+                    // handle success, maybe refresh the page or update UI
+                    console.log("Pearl deleted successfully.");
+                } else {
+                    // handle error
+                    console.error("Failed to delete pearl.");
+                }
+            }).catch(error => {
+                console.error("Error:", error);
+            });
+            // Vai alla home ricaricando la pagina
+            window.location.href = "http://localhost:5000/";
+        });
+
+        document.getElementById("changeWeight").addEventListener("click", function() {
+            var selectedWeightIds = [];
+
+            // Trova tutti gli input di tipo number
+            var inputs = document.getElementsByTagName("input");
+            for (var i = 0; i < inputs.length; i++) {
+                if (inputs[i].type == "number") {
+                    selectedWeightIds.push(inputs[i].id + "____" + inputs[i].value);
+                }
+            }
+
+            fetch('/changeWeights', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json'
+                },
+                body: JSON.stringify({
+                    selectedWeightIds: selectedWeightIds  // Passa gli ID delle checkbox selezionate
+                })
+            }).then(response => {
+                if (response.ok) {
+                    // handle success, maybe refresh the page or update UI
+                    console.log("Weights changed successfully.");
+                } else {
+                    // handle error
+                    console.error("Failed to change weights.");
+                }
+            }).catch(error => {
+                console.error("Error:", error);
+            });
+            // Vai alla home ricaricando la pagina
+            //window.location.href = "http://localhost:5000/";
+        });
+    </script>
+
+
+
+
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+</body>
+
+</html>

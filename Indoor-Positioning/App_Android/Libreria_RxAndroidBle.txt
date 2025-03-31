@@ -1,0 +1,14 @@
+RxAndroidBle `e una libreria open-source basata su RxJava, che sfrutta i paradigmi
+della programmazione reattiva per semplificare la gestione delle operazioni BLE come la
+scansione, la connessione ai dispositivi e l’interazione con le caratteristiche BLE (lettura,
+scrittura, e sottoscrizione a notifiche). La scelta di RxAndroidBle `e stata motivata dai
+seguenti vantaggi:
+• Asincronicit`a nativa: La libreria permette di eseguire operazioni BLE in modo non
+bloccante, evitando l’uso di callback complessi e migliorando la fluidit`a dell’app.
+• Gestione semplificata degli stati: L’interfaccia reattiva permette di gestire facil-
+mente transizioni di stato come connessione e disconnessione dei dispositivi, riducendo
+la complessit`a del codice.
+118
+CAPITOLO 7. TECNOLOGIE E STRUMENTI
+• Pulizia del codice: L’integrazione con RxJava consente di strutturare il codice in
+maniera modulare e leggibile, facilitando la manutenzione e l’estensione del progetto

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Posizione"
+        android:id="@+id/tbInfo1"
+        android:layout_gravity="center_horizontal"
+        android:textColor="#0B0A0A" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="114dp"
+        android:text="0"
+        android:id="@+id/tbCounter"
+        android:layout_gravity="center_horizontal"
+
+        android:includeFontPadding="false"
+        android:singleLine="true"
+        android:textColor="#171616"
+        android:textSize="100dp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:textAlignment="center" />
+    <TextView
+        android:id="@+id/beaconCount"
+        android:text="0 visible beacons:"
+        android:textAlignment="center"
+        android:layout_width="match_parent"
+        android:layout_height="20dp"/>
+    <ListView
+        android:id="@+id/beaconList"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+    </ListView>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_weight="0">
+
+        <Button
+            android:id="@+id/monitoringButton"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:onClick="monitoringButtonTapped"
+            android:text="Start"></Button>
+    </LinearLayout>
+
+</LinearLayout>

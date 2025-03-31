@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Annotazione 3D</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/public/css/style.css">
+</head>
+
+<body>
+    <div class="container mt-5">
+        <h2 class="text-center">Carica e Annota un Modello 3D (.GLB) - Per creare un'annotazione DoppioClick su una
+            parte dell'oggetto</h2>
+        <div class="form-group">
+            <label for="fileInput">Scegli un file .GLB:</label>
+            <input type="file" id="fileInput" class="form-control-file" accept=".glb">
+        </div>
+        <div id="viewer" class="mt-4"></div>
+        <button id="saveAnnotation" class="btn btn-primary mt-3">Salva Annotazione</button>
+        <button id="saveIIIF" class="btn btn-primary mt-3">Export IIIF</button>
+        <div id="export-link" style="margin-top: 10px;"></div>
+
+
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/three@0.128.0/examples/js/loaders/GLTFLoader.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/three@0.128.0/examples/js/controls/OrbitControls.js"></script>
+
+
+    <script src="/public/js/viewer.js"></script>
+</body>
+
+</html>

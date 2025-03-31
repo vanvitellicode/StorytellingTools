@@ -1,0 +1,48 @@
+{
+    "@context": [
+        "http://www.w3.org/ns/anno.jsonld",
+        "http://iiif.io/api/presentation/3/context.json"
+    ],
+    "id": "https://cosme.unicampania.it/rasta/montepugliano/CANVASNAME.json",
+    "type": "Manifest",
+    "items": [
+        {
+            "id": "https://cosme.unicampania.it/rasta/montepugliano/CANVASNAME.json/canvas/0",
+            "type": "Canvas",
+            "items": [
+                {
+                    "id": "https://cosme.unicampania.it/rasta/montepugliano/CANVASNAME.json/canvas/0/annotationpage/0",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "https://cosme.unicampania.it/rasta/montepugliano/CANVASNAME.json/canvas/0/annotation/0",
+                            "type": "Annotation",
+                            "motivation": "painting",
+                            "body": {
+                                "id": "https://cosme.unicampania.it/rasta/montepugliano/FILENAME.glb",
+                                "type": "Model",
+                                "format": "model/gltf-binary",
+                                "label": {
+                                    "@none": [
+                                        "_astronaut"
+                                    ]
+                                }
+                            },
+                            "target": "https://cosme.unicampania.it/rasta/montepugliano/CANVASNAME.json/canvas/0"
+                        }
+                    ]
+                }
+            ],
+            "label": {
+                "@none": [
+                    "_example"
+                ]
+            }
+        }
+    ],
+    "label": {
+        "@none": [
+            "3D Example"
+        ]
+    }
+}

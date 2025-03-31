@@ -1,0 +1,36 @@
+services:
+  php-apache:
+    build:
+      context: ..
+      dockerfile: docker/php/Dockerfile
+    ports:
+      - "8082:80"
+    volumes:
+      - ../public:/var/www/html/public
+      - ../src:/var/www/html/src
+      - ../views:/var/www/html/views
+      - ../../public_html/iiifmanifests:/var/www/html/src/iiifmanifests
+    depends_on:
+      - mysql
+    env_file: ./mysql/.env  # Carica le variabili di ambiente nel container PHP
+
+  mysql:
+    image: mysql:5.7
+    env_file: ./mysql/.env
+    volumes:
+      - db_data:/var/lib/mysql
+    ports:
+      - "3307:3306"
+
+  phpmyadmin:
+    image: phpmyadmin/phpmyadmin
+    env_file: ./mysql/.env  # Carica anche per phpMyAdmin
+    environment:
+      PMA_HOST: mysql
+    ports:
+      - "8081:80"
+    depends_on:
+      - mysql
+
+volumes:
+  db_data:
